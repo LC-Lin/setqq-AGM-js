@@ -1,0 +1,40 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "defaultSeverity": "warn",
+  "rules": {
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "member-access": [
+      true,
+      "no-public"
+    ],
+    "prefer-const": true,
+    "encoding": true,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "ordered-imports": false,
+    "max-classes-per-file": false,
+    "curly": false,
+    "trailing-comma": [
+      true,
+      {
+        "esSpecCompliant": true
+      }
+    ],
+    "no-console": false,
+    "arrow-parens": [
+      true,
+      "ban-single-arg-parens"
+    ],
+    "unified-signatures": true,
+    "no-unsafe-any": true
+  }
+}

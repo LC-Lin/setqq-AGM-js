@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "moduleResolution": "node",
+    "strict": true,
+    "importHelpers": true,
+    "outDir": "./",
+    "declaration": false,
+    "removeComments": true,
+    "newLine": "lf"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
